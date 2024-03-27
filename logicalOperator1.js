@@ -11,7 +11,8 @@
 // Do not change the name of variables
 let htmlLevel;
 let cssLevel;
-
+htmlLevel = 5
+cssLevel = 4
 // Finish the statement to check whether HTML, CSS knowledge are above 5
 // (hint: use the comparison operator from before)
 let htmlLevelAbove5;
@@ -22,6 +23,18 @@ let cssLevelAbove5;
 // Do not "hardcode" the answers
 let cssAndHtmlAbove5;
 let cssOrHtmlAbove5;
+// htmlLevelAbove5 = 5
+if (htmlLevel >=5) {
+  htmlLevelAbove5 = true
+}
+// ***
+if (cssLevel>=5) {
+  cssAndHtmlAbove5= true
+}else{
+  cssAndHtmlAbove5 = false
+}
+// **
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
