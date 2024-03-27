@@ -29,13 +29,16 @@ if (htmlLevel >=5) {
 }
 // ***
 if (cssLevel>=5) {
-  cssAndHtmlAbove5= true
+  cssLevelAbove5= true
+}else{
+  cssLevelAbove5 = false
+}
+// ***
+if(htmlLevel>=5&&cssLevel>+5){
+  cssAndHtmlAbove5 = true
 }else{
   cssAndHtmlAbove5 = false
 }
-// **
-
-
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
