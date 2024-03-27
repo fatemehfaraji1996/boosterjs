@@ -7,7 +7,7 @@
  *
  * @format
  */
-
+✅
 // Do not change the name of variables
 let htmlLevel;
 let cssLevel;
@@ -38,6 +38,13 @@ if(htmlLevel>=5&&cssLevel>+5){
   cssAndHtmlAbove5 = true
 }else{
   cssAndHtmlAbove5 = false
+}
+// ***
+
+if (htmlLevel>= 5 ||cssLevel>=5) {
+  cssOrHtmlAbove5 = true
+}else{
+  cssOrHtmlAbove5 = false
 }
 /* 
   DO NOT EDIT BELOW THIS LINE
