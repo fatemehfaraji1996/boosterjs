@@ -1,13 +1,17 @@
 /** @format */
 
 //This program needs some variables to log the expected result.
-
+// ✅
 let weWillWin ;
 let APSIsGreat ;
 let AmirIsCool ;
 let calculationCorrect ;
 let just1Student ;
-
+weWillWin = true
+APSIsGreat = true
+AmirIsCool =true
+calculationCorrect = false
+just1Student = false
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
